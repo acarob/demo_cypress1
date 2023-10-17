@@ -4,7 +4,8 @@
   "description": "Proyecto de pruebas practica cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser edge"
   },
   "author": "Andrea Barrera",
   "license": "ISC",
