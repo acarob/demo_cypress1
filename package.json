@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser edge"
+    "edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser edge",
+    "chrome": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser chrome"
   },
   "author": "Andrea Barrera",
   "license": "ISC",
